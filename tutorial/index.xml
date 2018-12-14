@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorials on Hong Zhang</title>
-    <link>https://caidao22.github.io/tutorial/</link>
+    <link>https://www.mcs.anl.gov/~hongzh/tutorial/</link>
     <description>Recent content in Tutorials on Hong Zhang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
     
-	<atom:link href="https://caidao22.github.io/tutorial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.mcs.anl.gov/~hongzh/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
