@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Runge-Kutta methods on Hong Zhang</title>
+    <link>https://caidao22.github.io/tags/runge-kutta-methods/</link>
+    <description>Recent content in Runge-Kutta methods on Hong Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 01 Jan 2014 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://caidao22.github.io/tags/runge-kutta-methods/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Extrapolated Implicit-Explicit Runge-Kutta Methods</title>
+      <link>https://caidao22.github.io/publication/cardone-2014-a/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 -0600</pubDate>
+      
+      <guid>https://caidao22.github.io/publication/cardone-2014-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

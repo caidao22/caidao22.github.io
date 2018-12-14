@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diagonally-implicit multi-stage integration method on Hong Zhang</title>
+    <link>https://caidao22.github.io/tags/diagonally-implicit-multi-stage-integration-method/</link>
+    <description>Recent content in Diagonally-implicit multi-stage integration method on Hong Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2012 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://caidao22.github.io/tags/diagonally-implicit-multi-stage-integration-method/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A second-order diagonally-implicit-explicit multi-stage integration method</title>
+      <link>https://caidao22.github.io/publication/zhang-2012-a/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 -0600</pubDate>
+      
+      <guid>https://caidao22.github.io/publication/zhang-2012-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
