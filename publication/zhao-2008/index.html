@@ -5,11 +5,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 3.2.0">
-  <meta name="generator" content="Hugo 0.52" />
-  <meta name="author" content="Hong Zhang">
+  <meta name="generator" content="Source Themes Academic 4.1.0">
+  <meta name="generator" content="Hugo 0.53" />
 
   
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Nelson Bighetti">
+
   
   
   
@@ -48,7 +61,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
 
     
@@ -60,7 +73,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
         
       
     
@@ -120,7 +134,7 @@
   <meta property="og:site_name" content="Hong Zhang">
   <meta property="og:url" content="https://www.mcs.anl.gov/~hongzh/publication/zhao-2008/">
   <meta property="og:title" content="A better block partition and ligation strategy for individual haplotyping. | Hong Zhang">
-  <meta property="og:description" content="MOTIVATION: Haplotype played an important role in the association studies of disease gene and drug responsivity over the past years, but the low throughput of expensive biological experiments largely limited its application. Alternatively, some efficient statistical methods were developed to deduce haplotypes from genotypes directly. Because these algorithms usually needed to estimate the frequencies of numerous possible haplotypes, the partition and ligation strategy was widely adopted to reduce the time complexity. The haplotypes were usually partitioned uniformly in the past, but recent studies showed that the haplotypes had their own block structure, which may be not uniform. More reasonable block partition and ligation strategy according to the haplotype structure may further improve the accuracy of individual haplotyping. RESULTS: In this article, we presented a simple algorithm for block partition and ligation, which provided better accuracy for individual haplotyping. The block partition and ligation could be completed within O(m(2) logm&#43;m(2n)) time complexity, where m represented the length of genotypes and n represented the number of individuals. We tested the performance of our algorithm on both real and simulated dataset. The result showed that our algorithm yielded better accuracy with short running time. AVAILABILITY: The software is publicly available at http://mail.ustc.edu.cn/̃zyzh."><meta property="og:image" content="https://www.mcs.anl.gov/~hongzh/img/HongZhang_2017.jpg">
+  <meta property="og:description" content="MOTIVATION: Haplotype played an important role in the association studies of disease gene and drug responsivity over the past years, but the low throughput of expensive biological experiments largely limited its application. Alternatively, some efficient statistical methods were developed to deduce haplotypes from genotypes directly. Because these algorithms usually needed to estimate the frequencies of numerous possible haplotypes, the partition and ligation strategy was widely adopted to reduce the time complexity. The haplotypes were usually partitioned uniformly in the past, but recent studies showed that the haplotypes had their own block structure, which may be not uniform. More reasonable block partition and ligation strategy according to the haplotype structure may further improve the accuracy of individual haplotyping. RESULTS: In this article, we presented a simple algorithm for block partition and ligation, which provided better accuracy for individual haplotyping. The block partition and ligation could be completed within O(m(2) logm&#43;m(2n)) time complexity, where m represented the length of genotypes and n represented the number of individuals. We tested the performance of our algorithm on both real and simulated dataset. The result showed that our algorithm yielded better accuracy with short running time. AVAILABILITY: The software is publicly available at http://mail.ustc.edu.cn/̃zyzh."><meta property="og:image" content="https://www.mcs.anl.gov/~hongzh/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2008-01-01T00:00:00-06:00">
@@ -185,7 +199,7 @@
 
       
       
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav mr-auto">
         
 
         
@@ -284,6 +298,9 @@
         
 
       
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
 
         
 
@@ -335,51 +352,86 @@
   
     
 
+
+
+<meta content="2008-01-01 00:00:00 -0600 CST" itemprop="datePublished">
+<meta content="2008-01-01 00:00:00 -0600 CST" itemprop="dateModified">
+
 <div class="article-metadata">
 
   
   
   
+  
   <div>
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Yuzhong Zhao</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Yun Xu</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Zhihao Wang</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Hong Zhang</span>
-    </span>, 
-    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">Guoliang Chen</span>
-    </span>
     
+
+
+
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/~hongzh/authors/yuzhong-zhao/">Yuzhong Zhao</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/~hongzh/authors/yun-xu/">Yun Xu</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/~hongzh/authors/zhihao-wang/">Zhihao Wang</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="/~hongzh/authors/guoliang-chen/">Guoliang Chen</a></span></span>
+  
+
+
+
   </div>
   
+  
 
+  
   <span class="article-date">
     
-    <meta content="2008-01-01 00:00:00 -0600 CST" itemprop="datePublished">
-    <time datetime="2008-01-01 00:00:00 -0600 CST" itemprop="dateModified">
-      Jan 1, 2008
-    </time>
+    
+      
+    
+    <time>January 2008</time>
   </span>
-  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Hong Zhang">
-  </span>
-
   
 
-  
   
 
   
 
   
   
+
+  
+
+  
+    
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     <li>
@@ -504,6 +556,9 @@
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
             
+
+            
+            
             <a href="/~hongzh/publication/#2">
               Journal article
             </a>
@@ -529,20 +584,6 @@
     </div>
     <div class="d-md-none space-below"></div>
     
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9" itemprop="datePublished">
-            January, 2008
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-sm-none space-below"></div>
 
     <div class="space-below"></div>
 
@@ -575,7 +616,15 @@
 
 
 
+
+
+
   
+  
+    
+  
+  
+
 
 
 
@@ -593,7 +642,7 @@
   
 
   <p class="powered-by">
-    &copy; 2018 &middot; 
+    &copy; 2019 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
@@ -648,9 +697,9 @@
     
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
 
       
@@ -727,10 +776,12 @@
     
     
     
+      
     
-    <script src="/~hongzh/js/academic.min.d037ee5294b166a79dec317c58aea9cc.js"></script>
-
     
+    
+    
+    <script src="/~hongzh/js/academic.min.d7381f2d79e6271d4da28f474f49096c.js"></script>
 
   </body>
 </html>
