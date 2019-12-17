@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jose Garcia on Hong Zhang</title>
+    <title>Jose Garcia | Hong Zhang</title>
     <link>https://www.mcs.anl.gov/~hongzh/authors/jose-garcia/</link>
-    <description>Recent content in Jose Garcia on Hong Zhang</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sun, 01 Jan 2012 00:00:00 -0600</lastBuildDate>
-    
-	<atom:link href="https://www.mcs.anl.gov/~hongzh/authors/jose-garcia/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mcs.anl.gov/~hongzh/authors/jose-garcia/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jose Garcia</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2012 00:00:00 -0600</lastBuildDate>
+    <image>
+      <url>https://www.mcs.anl.gov/~hongzh/img/icon-192.png</url>
+      <title>Jose Garcia</title>
+      <link>https://www.mcs.anl.gov/~hongzh/authors/jose-garcia/</link>
+    </image>
     
     <item>
       <title>GPU acceleration of a Cloud Resolving Model using CUDA</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2012/</guid>
       <description></description>
     </item>

@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Numerical integration solvers on Hong Zhang</title>
+    <title>Numerical integration solvers | Hong Zhang</title>
     <link>https://www.mcs.anl.gov/~hongzh/tags/numerical-integration-solvers/</link>
-    <description>Recent content in Numerical integration solvers on Hong Zhang</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 01 Jan 2016 00:00:00 -0600</lastBuildDate>
-    
-	<atom:link href="https://www.mcs.anl.gov/~hongzh/tags/numerical-integration-solvers/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mcs.anl.gov/~hongzh/tags/numerical-integration-solvers/index.xml" rel="self" type="application/rss+xml" />
+    <description>Numerical integration solvers</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 -0600</lastBuildDate>
+    <image>
+      <url>https://www.mcs.anl.gov/~hongzh/img/icon-192.png</url>
+      <title>Numerical integration solvers</title>
+      <link>https://www.mcs.anl.gov/~hongzh/tags/numerical-integration-solvers/</link>
+    </image>
     
     <item>
       <title>Lightweight and accurate silent data corruption detection in ordinary differential equation solvers</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/guhur-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/guhur-2016/</guid>
       <description></description>
     </item>

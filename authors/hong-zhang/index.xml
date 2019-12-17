@@ -3,20 +3,35 @@
   <channel>
     <title>Hong Zhang</title>
     <link>https://www.mcs.anl.gov/~hongzh/authors/hong-zhang/</link>
-    <description>Recent content on Hong Zhang</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 -0600</lastBuildDate>
+      <atom:link href="https://www.mcs.anl.gov/~hongzh/authors/hong-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hong Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2019 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://www.mcs.anl.gov/~hongzh/img/icon-192.png</url>
+      <title>Hong Zhang</title>
+      <link>https://www.mcs.anl.gov/~hongzh/authors/hong-zhang/</link>
+    </image>
     
-	<atom:link href="https://www.mcs.anl.gov/~hongzh/authors/hong-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stability Analysis of Interface Conditions for Ocean-Atmosphere Coupling</title>
+      <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2019-a/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 -0500</pubDate>
+      <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2019-a/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>PETSc TSAdjoint: a discrete adjoint ODE solver for first-order and second-order sensitivity analysis</title>
+      <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2019-b/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0600</pubDate>
+      <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2019-b/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Vectorized Parallel Sparse Matrix-Vector Multiplication in PETSc Using AVX-512</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2018/</guid>
       <description></description>
     </item>
@@ -25,7 +40,6 @@
       <title>Discrete Adjoint Sensitivity Analysis of Hybrid Dynamical Systems With Switching</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2017/</guid>
       <description></description>
     </item>
@@ -34,7 +48,6 @@
       <title>Asynchronous two-level checkpointing scheme for large-scale adjoints in the spectral-element solver Nek5000</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/schanen-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/schanen-2016/</guid>
       <description></description>
     </item>
@@ -43,7 +56,6 @@
       <title>High order implicit-explicit general linear methods with optimized stability regions</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2016/</guid>
       <description></description>
     </item>
@@ -52,7 +64,6 @@
       <title>Lightweight and accurate silent data corruption detection in ordinary differential equation solvers</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/guhur-2016/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/guhur-2016/</guid>
       <description></description>
     </item>
@@ -61,7 +72,6 @@
       <title>A class of implicit-explicit two-step Runge-Kutta methods</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/zharovsky-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/zharovsky-2015/</guid>
       <description></description>
     </item>
@@ -70,7 +80,6 @@
       <title>Application of approximate matrix factorization to high order linearly implicit Runge-Kutta methods</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2015-a/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2015-a/</guid>
       <description></description>
     </item>
@@ -79,7 +88,6 @@
       <title>Application of implicit-explicit general linear methods to reaction-diffusion problems</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2015/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2015/</guid>
       <description></description>
     </item>
@@ -88,7 +96,6 @@
       <title>FATODE: a library for forward, adjoint, and tangent linear integration of ODEs</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2014/</link>
       <pubDate>Wed, 01 Oct 2014 00:00:00 -0500</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2014/</guid>
       <description></description>
     </item>
@@ -97,7 +104,6 @@
       <title>Extrapolated Implicit-Explicit Runge-Kutta Methods</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/cardone-2014-a/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/cardone-2014-a/</guid>
       <description></description>
     </item>
@@ -106,7 +112,6 @@
       <title>Extrapolation-based implicit-explicit general linear methods</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/cardone-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/cardone-2014/</guid>
       <description></description>
     </item>
@@ -115,7 +120,6 @@
       <title>Partitioned and implicit-explicit general linear methods for ordinary differential equations</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2014-a/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2014-a/</guid>
       <description></description>
     </item>
@@ -124,7 +128,6 @@
       <title>A second-order diagonally-implicit-explicit multi-stage integration method</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2012-a/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2012-a/</guid>
       <description></description>
     </item>
@@ -133,7 +136,6 @@
       <title>GPU acceleration of a Cloud Resolving Model using CUDA</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2012/</guid>
       <description></description>
     </item>
@@ -142,7 +144,6 @@
       <title>Chemical mechanism solvers in air quality models</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2011-a/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2011-a/</guid>
       <description></description>
     </item>
@@ -151,7 +152,6 @@
       <title>FATODE: A Library for Forward, Adjoint and Tangent Linear Integration of Stiff Systems</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2011/</link>
       <pubDate>Sat, 01 Jan 2011 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2011/</guid>
       <description></description>
     </item>
@@ -160,7 +160,6 @@
       <title>Discovery of motif pairs from protein-protein interaction networks</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2009/</link>
       <pubDate>Thu, 01 Jan 2009 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2009/</guid>
       <description></description>
     </item>
@@ -169,7 +168,6 @@
       <title>A better block partition and ligation strategy for individual haplotyping.</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/zhao-2008/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/zhao-2008/</guid>
       <description></description>
     </item>

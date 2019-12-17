@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stability analysis on Hong Zhang</title>
+    <title>Stability analysis | Hong Zhang</title>
     <link>https://www.mcs.anl.gov/~hongzh/tags/stability-analysis/</link>
-    <description>Recent content in Stability analysis on Hong Zhang</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 01 Jan 2014 00:00:00 -0600</lastBuildDate>
+      <atom:link href="https://www.mcs.anl.gov/~hongzh/tags/stability-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Stability analysis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2019 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://www.mcs.anl.gov/~hongzh/img/icon-192.png</url>
+      <title>Stability analysis</title>
+      <link>https://www.mcs.anl.gov/~hongzh/tags/stability-analysis/</link>
+    </image>
     
-	<atom:link href="https://www.mcs.anl.gov/~hongzh/tags/stability-analysis/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Stability Analysis of Interface Conditions for Ocean-Atmosphere Coupling</title>
+      <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2019-a/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 -0500</pubDate>
+      <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2019-a/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Extrapolation-based implicit-explicit general linear methods</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/cardone-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/cardone-2014/</guid>
       <description></description>
     </item>

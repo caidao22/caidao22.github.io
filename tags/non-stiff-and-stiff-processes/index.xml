@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>non-stiff and stiff processes on Hong Zhang</title>
+    <title>non-stiff and stiff processes | Hong Zhang</title>
     <link>https://www.mcs.anl.gov/~hongzh/tags/non-stiff-and-stiff-processes/</link>
-    <description>Recent content in non-stiff and stiff processes on Hong Zhang</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 01 Jan 2014 00:00:00 -0600</lastBuildDate>
-    
-	<atom:link href="https://www.mcs.anl.gov/~hongzh/tags/non-stiff-and-stiff-processes/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mcs.anl.gov/~hongzh/tags/non-stiff-and-stiff-processes/index.xml" rel="self" type="application/rss+xml" />
+    <description>non-stiff and stiff processes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2014 00:00:00 -0600</lastBuildDate>
+    <image>
+      <url>https://www.mcs.anl.gov/~hongzh/img/icon-192.png</url>
+      <title>non-stiff and stiff processes</title>
+      <link>https://www.mcs.anl.gov/~hongzh/tags/non-stiff-and-stiff-processes/</link>
+    </image>
     
     <item>
       <title>Extrapolated Implicit-Explicit Runge-Kutta Methods</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/cardone-2014-a/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/cardone-2014-a/</guid>
       <description></description>
     </item>

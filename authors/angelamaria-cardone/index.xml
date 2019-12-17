@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Angelamaria Cardone on Hong Zhang</title>
+    <title>Angelamaria Cardone | Hong Zhang</title>
     <link>https://www.mcs.anl.gov/~hongzh/authors/angelamaria-cardone/</link>
-    <description>Recent content in Angelamaria Cardone on Hong Zhang</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Wed, 01 Jan 2014 00:00:00 -0600</lastBuildDate>
-    
-	<atom:link href="https://www.mcs.anl.gov/~hongzh/authors/angelamaria-cardone/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.mcs.anl.gov/~hongzh/authors/angelamaria-cardone/index.xml" rel="self" type="application/rss+xml" />
+    <description>Angelamaria Cardone</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2014 00:00:00 -0600</lastBuildDate>
+    <image>
+      <url>https://www.mcs.anl.gov/~hongzh/img/icon-192.png</url>
+      <title>Angelamaria Cardone</title>
+      <link>https://www.mcs.anl.gov/~hongzh/authors/angelamaria-cardone/</link>
+    </image>
     
     <item>
       <title>Extrapolated Implicit-Explicit Runge-Kutta Methods</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/cardone-2014-a/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/cardone-2014-a/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>Extrapolation-based implicit-explicit general linear methods</title>
       <link>https://www.mcs.anl.gov/~hongzh/publication/cardone-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 -0600</pubDate>
-      
       <guid>https://www.mcs.anl.gov/~hongzh/publication/cardone-2014/</guid>
       <description></description>
     </item>

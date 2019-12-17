@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.1.0">
-  <meta name="generator" content="Hugo 0.53" />
+  <meta name="generator" content="Source Themes Academic 4.6.3">
 
   
 
@@ -21,14 +21,14 @@
   
   
 
-  <meta name="author" content="Nelson Bighetti">
+  <meta name="author" content="Hong Zhang">
 
   
   
   
     
   
-  <meta name="description" content="Professor of Artificial Intelligence">
+  <meta name="description" content="Assistant Computational Mathematician">
 
   
   <link rel="alternate" hreflang="en-us" href="https://www.mcs.anl.gov/~hongzh/publication/">
@@ -37,21 +37,9 @@
 
 
   
-
-  
-
-  
-
-  
-
-  
-
-  
-
   
   
-  
-  <meta name="theme-color" content="hsl(339, 90%, 68%)">
+  <meta name="theme-color" content="#2962ff">
   
 
   
@@ -59,10 +47,9 @@
   
   
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
     
@@ -73,13 +60,15 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
 
     
 
@@ -87,37 +76,66 @@
 
   
   
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
   
-
-  <link rel="stylesheet" href="/~hongzh/styles.css">
-  
-
-  
-  
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-26411696-1', 'auto');
-      
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="//www.google-analytics.com/analytics.js"></script>
-    
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
-    
-  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
-  <link rel="alternate" href="https://www.mcs.anl.gov/~hongzh/publication/index.xml" type="application/rss+xml" title="Hong Zhang">
-  <link rel="feed" href="https://www.mcs.anl.gov/~hongzh/publication/index.xml" type="application/rss+xml" title="Hong Zhang">
+  
+  
+  
+  <link rel="stylesheet" href="/~hongzh/css/academic.css">
+
   
 
-  <link rel="manifest" href="/~hongzh/site.webmanifest">
-  <link rel="icon" type="image/png" href="/~hongzh/img/icon.png">
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26411696-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-26411696-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  <link rel="alternate" href="/~hongzh/publication/index.xml" type="application/rss+xml" title="Hong Zhang">
+  
+
+  <link rel="manifest" href="/~hongzh/index.webmanifest">
+  <link rel="icon" type="image/png" href="/~hongzh/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/~hongzh/img/icon-192.png">
 
   <link rel="canonical" href="https://www.mcs.anl.gov/~hongzh/publication/">
@@ -129,25 +147,38 @@
     
     
   
+  
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Hong Zhang">
   <meta property="og:url" content="https://www.mcs.anl.gov/~hongzh/publication/">
   <meta property="og:title" content="Publications | Hong Zhang">
-  <meta property="og:description" content="Professor of Artificial Intelligence"><meta property="og:image" content="https://www.mcs.anl.gov/~hongzh/img/icon-192.png">
-  <meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Assistant Computational Mathematician"><meta property="og:image" content="https://www.mcs.anl.gov/~hongzh/img/icon-192.png">
+  <meta property="twitter:image" content="https://www.mcs.anl.gov/~hongzh/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2018-01-01T00:00:00-06:00">
-  
-
+    <meta property="og:updated_time" content="2019-09-01T00:00:00-05:00">
   
 
   
+
+
+
+
+  
+
+
+  
+
+
+
+
 
   <title>Publications | Hong Zhang</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
   <aside class="search-results" id="search">
   <div class="container">
     <section class="search-header">
@@ -164,7 +195,7 @@
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -180,150 +211,153 @@
 </aside>
 
 
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/~hongzh/">Hong Zhang</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
 
-      
-      
-      <ul class="navbar-nav mr-auto">
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/~hongzh/#about">
-            
-            <span>Home</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/~hongzh/#publications">
-            
-            <span>Publications</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/~hongzh/#posts">
-            
-            <span>Posts</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/~hongzh/#projects">
-            
-            <span>Projects</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/~hongzh/~hongzh/tutorial/">
-            
-            <span>Tutorials</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-      
-      </ul>
-      <ul class="navbar-nav ml-auto">
-      
-
-        
-
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
-
-        
-
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/~hongzh/">Hong Zhang</a>
     </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~hongzh/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~hongzh/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~hongzh/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
   </div>
 </nav>
 
 
-
+  
 
 
 
@@ -344,7 +378,7 @@
     
   
 <div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Publications</h1>
+  <h1>Publications</h1>
 
   
 
@@ -415,6 +449,12 @@
         
         
       
+        
+        
+      
+        
+        
+      
 
       <div class="form-row mb-4">
         <div class="col-auto">
@@ -425,15 +465,12 @@
           <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
             <option value="*">Type</option>
             
-
             
             <option value=".pubtype-1">
-              
               Conference paper
             </option>
             
             <option value=".pubtype-2">
-              
               Journal article
             </option>
             
@@ -444,6 +481,10 @@
             <option value="*">Date</option>
             
             
+            
+            <option value=".year-2019">
+              2019
+            </option>
             
             <option value=".year-2018">
               2018
@@ -493,54 +534,89 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2018">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2019">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
+  
+  <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/zhengyu-liu/">Zhengyu Liu</a></span>, <span><a href="/~hongzh/authors/emil-constantinescu/">Emil Constantinescu</a></span>, <span><a href="/~hongzh/authors/robert-jacob/">Robert Jacob</a></span>
 
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
+  </span>
+  (2019).
+  <a href="/~hongzh/publication/zhang-2019-a/">Stability Analysis of Interface Conditions for Ocean-Atmosphere Coupling</a>.
+  <em>submitted</em>.
+  
+  <p>
 
-      
-      
-      <a href="/~hongzh/authors/richard-t.-mills/">Richard T. Mills</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
 
-      
-      
-      <a href="/~hongzh/authors/karl-rupp/">Karl Rupp</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
 
-      
-      
-      <a href="/~hongzh/authors/barry-f.-smith/">Barry F. Smith</a></span></span>
+
+
+
+
+
   
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2018">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/richard-t.-mills/">Richard T. Mills</a></span>, <span><a href="/~hongzh/authors/karl-rupp/">Karl Rupp</a></span>, <span><a href="/~hongzh/authors/barry-f.-smith/">Barry F. Smith</a></span>
+
   </span>
   (2018).
-  <a href="/~hongzh/publication/zhang-2018/" itemprop="name">Vectorized Parallel Sparse Matrix-Vector Multiplication in PETSc Using AVX-512</a>.
+  <a href="/~hongzh/publication/zhang-2018/">Vectorized Parallel Sparse Matrix-Vector Multiplication in PETSc Using AVX-512</a>.
   <em>Proceedings of the 47th International Conference on Parallel Processing - ICPP 2018</em>.
   
   <p>
@@ -551,9 +627,11 @@
 
 
 
+
   
     
   
+
 
 
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~hongzh/publication/zhang-2018/ICPP_KNL_final.pdf" target="_blank" rel="noopener">
@@ -561,11 +639,6 @@
 </a>
 
 
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/zhang-2018/zhang-2018.bib">
-  Cite
-</button>
 
 
 
@@ -599,54 +672,89 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2017">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2018">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
+  
+  <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/emil-m.-constantinescu/">Emil M. Constantinescu</a></span>, <span><a href="/~hongzh/authors/barry-f.-smith/">Barry F. Smith</a></span>
 
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
+  </span>
+  (2018).
+  <a href="/~hongzh/publication/zhang-2019-b/">PETSc TSAdjoint: a discrete adjoint ODE solver for first-order and second-order sensitivity analysis</a>.
+  <em>submitted</em>.
+  
+  <p>
 
-      
-      
-      <a href="/~hongzh/authors/shrirang-abhyankar/">Shrirang Abhyankar</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
 
-      
-      
-      <a href="/~hongzh/authors/emil-constantinescu/">Emil Constantinescu</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
 
-      
-      
-      <a href="/~hongzh/authors/mihai-anitescu/">Mihai Anitescu</a></span></span>
+
+
+
+
+
   
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+          
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2017">
+          
+            <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+
+
+  
+  <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/shrirang-abhyankar/">Shrirang Abhyankar</a></span>, <span><a href="/~hongzh/authors/emil-constantinescu/">Emil Constantinescu</a></span>, <span><a href="/~hongzh/authors/mihai-anitescu/">Mihai Anitescu</a></span>
+
   </span>
   (2017).
-  <a href="/~hongzh/publication/zhang-2017/" itemprop="name">Discrete Adjoint Sensitivity Analysis of Hybrid Dynamical Systems With Switching</a>.
+  <a href="/~hongzh/publication/zhang-2017/">Discrete Adjoint Sensitivity Analysis of Hybrid Dynamical Systems With Switching</a>.
   <em>IEEE Transactions on Circuits and Systems I: Regular Papers</em>.
   
   <p>
@@ -657,9 +765,11 @@
 
 
 
+
   
     
   
+
 
 
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~hongzh/publication/zhang-2017/TCASI_DASA_final.pdf" target="_blank" rel="noopener">
@@ -667,11 +777,6 @@
 </a>
 
 
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/zhang-2017/zhang-2017.bib">
-  Cite
-</button>
 
 
 
@@ -707,59 +812,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/pierre-louis-guhur/">Pierre Louis Guhur</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/tom-peterka/">Tom Peterka</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/emil-constantinescu/">Emil Constantinescu</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/franck-cappello/">Franck Cappello</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/pierre-louis-guhur/">Pierre Louis Guhur</a></span>, <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/tom-peterka/">Tom Peterka</a></span>, <span><a href="/~hongzh/authors/emil-constantinescu/">Emil Constantinescu</a></span>, <span><a href="/~hongzh/authors/franck-cappello/">Franck Cappello</a></span>
 
   </span>
   (2016).
-  <a href="/~hongzh/publication/guhur-2016/" itemprop="name">Lightweight and accurate silent data corruption detection in ordinary differential equation solvers</a>.
+  <a href="/~hongzh/publication/guhur-2016/">Lightweight and accurate silent data corruption detection in ordinary differential equation solvers</a>.
   <em>Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)</em>.
   
   <p>
@@ -770,15 +839,12 @@
 
 
 
+
   
 
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/guhur-2016/guhur-2016.bib">
-  Cite
-</button>
 
 
 
@@ -814,45 +880,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2016">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/s%C3%A9bastien-blaise/">Sébastien Blaise</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span>, <span><a href="/~hongzh/authors/sebastien-blaise/">Sébastien Blaise</a></span>
 
   </span>
   (2016).
-  <a href="/~hongzh/publication/zhang-2016/" itemprop="name">High order implicit-explicit general linear methods with optimized stability regions</a>.
+  <a href="/~hongzh/publication/zhang-2016/">High order implicit-explicit general linear methods with optimized stability regions</a>.
   <em>SIAM Journal on Scientific Computing</em>.
   
   <p>
@@ -863,9 +907,11 @@
 
 
 
+
   
     
   
+
 
 
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~hongzh/publication/zhang-2016/SISC_IMEXGLM_final.pdf" target="_blank" rel="noopener">
@@ -873,11 +919,6 @@
 </a>
 
 
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/zhang-2016/zhang-2016.bib">
-  Cite
-</button>
 
 
 
@@ -913,52 +954,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2016">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/michel-schanen/">Michel Schanen</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/oana-marin/">Oana Marin</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/mihai-anitescu/">Mihai Anitescu</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/michel-schanen/">Michel Schanen</a></span>, <span><a href="/~hongzh/authors/oana-marin/">Oana Marin</a></span>, <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/mihai-anitescu/">Mihai Anitescu</a></span>
 
   </span>
   (2016).
-  <a href="/~hongzh/publication/schanen-2016/" itemprop="name">Asynchronous two-level checkpointing scheme for large-scale adjoints in the spectral-element solver Nek5000</a>.
+  <a href="/~hongzh/publication/schanen-2016/">Asynchronous two-level checkpointing scheme for large-scale adjoints in the spectral-element solver Nek5000</a>.
   <em>Procedia Computer Science</em>.
   
   <p>
@@ -969,15 +981,12 @@
 
 
 
+
   
 
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/schanen-2016/schanen-2016.bib">
-  Cite
-</button>
 
 
 
@@ -1013,38 +1022,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2015">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span>
 
   </span>
   (2015).
-  <a href="/~hongzh/publication/zhang-2015/" itemprop="name">Application of implicit-explicit general linear methods to reaction-diffusion problems</a>.
+  <a href="/~hongzh/publication/zhang-2015/">Application of implicit-explicit general linear methods to reaction-diffusion problems</a>.
   <em>AIP Conference Proceedings</em>.
   
   <p>
@@ -1055,15 +1049,12 @@
 
 
 
+
   
 
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/zhang-2015/zhang-2015.bib">
-  Cite
-</button>
 
 
 
@@ -1099,45 +1090,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2015">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/paul-tranquilli/">Paul Tranquilli</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span>, <span><a href="/~hongzh/authors/paul-tranquilli/">Paul Tranquilli</a></span>
 
   </span>
   (2015).
-  <a href="/~hongzh/publication/zhang-2015-a/" itemprop="name">Application of approximate matrix factorization to high order linearly implicit Runge-Kutta methods</a>.
+  <a href="/~hongzh/publication/zhang-2015-a/">Application of approximate matrix factorization to high order linearly implicit Runge-Kutta methods</a>.
   <em>Journal of Computational and Applied Mathematics</em>.
   
   <p>
@@ -1148,15 +1117,12 @@
 
 
 
+
   
 
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/zhang-2015-a/zhang-2015-a.bib">
-  Cite
-</button>
 
 
 
@@ -1192,45 +1158,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2015">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/evgeniy-zharovsky/">Evgeniy Zharovsky</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/evgeniy-zharovsky/">Evgeniy Zharovsky</a></span>, <span><a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span>, <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>
 
   </span>
   (2015).
-  <a href="/~hongzh/publication/zharovsky-2015/" itemprop="name">A class of implicit-explicit two-step Runge-Kutta methods</a>.
+  <a href="/~hongzh/publication/zharovsky-2015/">A class of implicit-explicit two-step Runge-Kutta methods</a>.
   <em>SIAM Journal on Numerical Analysis</em>.
   
   <p>
@@ -1241,9 +1185,11 @@
 
 
 
+
   
     
   
+
 
 
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~hongzh/publication/zharovsky-2015/SINUM_TSRK_final.pdf" target="_blank" rel="noopener">
@@ -1251,11 +1197,6 @@
 </a>
 
 
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/zharovsky-2015/zharovsky-2015.bib">
-  Cite
-</button>
 
 
 
@@ -1291,38 +1232,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2014">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span>
 
   </span>
   (2014).
-  <a href="/~hongzh/publication/zhang-2014/" itemprop="name">FATODE: a library for forward, adjoint, and tangent linear integration of ODEs</a>.
+  <a href="/~hongzh/publication/zhang-2014/">FATODE: a library for forward, adjoint, and tangent linear integration of ODEs</a>.
   <em>SIAM Journal on Scientific Computing</em>.
   
   <p>
@@ -1333,9 +1259,11 @@
 
 
 
+
   
     
   
+
 
 
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~hongzh/publication/zhang-2014/SISC_FATODE_final.pdf" target="_blank" rel="noopener">
@@ -1343,11 +1271,6 @@
 </a>
 
 
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/zhang-2014/zhang-2014.bib">
-  Cite
-</button>
 
 
 
@@ -1383,45 +1306,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2014">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/s%C3%A9bastien-blaise/">Sébastien Blaise</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span>, <span><a href="/~hongzh/authors/sebastien-blaise/">Sébastien Blaise</a></span>
 
   </span>
   (2014).
-  <a href="/~hongzh/publication/zhang-2014-a/" itemprop="name">Partitioned and implicit-explicit general linear methods for ordinary differential equations</a>.
+  <a href="/~hongzh/publication/zhang-2014-a/">Partitioned and implicit-explicit general linear methods for ordinary differential equations</a>.
   <em>Journal of Scientific Computing</em>.
   
   <p>
@@ -1432,9 +1333,11 @@
 
 
 
+
   
     
   
+
 
 
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/~hongzh/publication/zhang-2014-a/JSC_IMEXGLM_final.pdf" target="_blank" rel="noopener">
@@ -1442,11 +1345,6 @@
 </a>
 
 
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/zhang-2014-a/zhang-2014-a.bib">
-  Cite
-</button>
 
 
 
@@ -1482,52 +1380,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2014">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/angelamaria-cardone/">Angelamaria Cardone</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/zdzis%C5%82aw-jackiewicz/">Zdzisław Jackiewicz</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/angelamaria-cardone/">Angelamaria Cardone</a></span>, <span>Zdzisław Jackiewicz</span>, <span><a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span>, <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>
 
   </span>
   (2014).
-  <a href="/~hongzh/publication/cardone-2014/" itemprop="name">Extrapolation-based implicit-explicit general linear methods</a>.
+  <a href="/~hongzh/publication/cardone-2014/">Extrapolation-based implicit-explicit general linear methods</a>.
   <em>Numerical Algorithms</em>.
   
   <p>
@@ -1538,15 +1407,12 @@
 
 
 
+
   
 
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/cardone-2014/cardone-2014.bib">
-  Cite
-</button>
 
 
 
@@ -1582,52 +1448,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2014">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/angelamaria-cardone/">Angelamaria Cardone</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/zdzislaw-jackiewicz/">Zdzislaw Jackiewicz</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/angelamaria-cardone/">Angelamaria Cardone</a></span>, <span><a href="/~hongzh/authors/zdzislaw-jackiewicz/">Zdzislaw Jackiewicz</a></span>, <span><a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span>, <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>
 
   </span>
   (2014).
-  <a href="/~hongzh/publication/cardone-2014-a/" itemprop="name">Extrapolated Implicit-Explicit Runge-Kutta Methods</a>.
+  <a href="/~hongzh/publication/cardone-2014-a/">Extrapolated Implicit-Explicit Runge-Kutta Methods</a>.
   <em>Mathematical Modelling and Analysis</em>.
   
   <p>
@@ -1638,15 +1475,12 @@
 
 
 
+
   
 
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/cardone-2014-a/cardone-2014-a.bib">
-  Cite
-</button>
 
 
 
@@ -1682,38 +1516,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2012">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/jose-garcia/">Jose Garcia</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/jose-garcia/">Jose Garcia</a></span>
 
   </span>
   (2012).
-  <a href="/~hongzh/publication/zhang-2012/" itemprop="name">GPU acceleration of a Cloud Resolving Model using CUDA</a>.
+  <a href="/~hongzh/publication/zhang-2012/">GPU acceleration of a Cloud Resolving Model using CUDA</a>.
   <em>Procedia Computer Science</em>.
   
   <p>
@@ -1724,15 +1543,12 @@
 
 
 
+
   
 
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/zhang-2012/zhang-2012.bib">
-  Cite
-</button>
 
 
 
@@ -1768,38 +1584,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2012">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span>
 
   </span>
   (2012).
-  <a href="/~hongzh/publication/zhang-2012-a/" itemprop="name">A second-order diagonally-implicit-explicit multi-stage integration method</a>.
+  <a href="/~hongzh/publication/zhang-2012-a/">A second-order diagonally-implicit-explicit multi-stage integration method</a>.
   <em>Procedia Computer Science</em>.
   
   <p>
@@ -1810,15 +1611,12 @@
 
 
 
+
   
 
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/zhang-2012-a/zhang-2012-a.bib">
-  Cite
-</button>
 
 
 
@@ -1854,38 +1652,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2011">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span>
 
   </span>
   (2011).
-  <a href="/~hongzh/publication/zhang-2011/" itemprop="name">FATODE: A Library for Forward, Adjoint and Tangent Linear Integration of Stiff Systems</a>.
+  <a href="/~hongzh/publication/zhang-2011/">FATODE: A Library for Forward, Adjoint and Tangent Linear Integration of Stiff Systems</a>.
   <em>Proceedings of the 19th High Performance Computing Symposia</em>.
   
   <p>
@@ -1896,9 +1679,11 @@
 
 
 
+
   
     
   
+
 
 
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://dl.acm.org/citation.cfm?id=2048577.2048596" target="_blank" rel="noopener">
@@ -1906,11 +1691,6 @@
 </a>
 
 
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/zhang-2011/zhang-2011.bib">
-  Cite
-</button>
 
 
 
@@ -1942,52 +1722,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2011">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/john-c.-linford/">John C. Linford</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/rolf-sander/">Rolf Sander</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/john-c.-linford/">John C. Linford</a></span>, <span><a href="/~hongzh/authors/adrian-sandu/">Adrian Sandu</a></span>, <span><a href="/~hongzh/authors/rolf-sander/">Rolf Sander</a></span>
 
   </span>
   (2011).
-  <a href="/~hongzh/publication/zhang-2011-a/" itemprop="name">Chemical mechanism solvers in air quality models</a>.
+  <a href="/~hongzh/publication/zhang-2011-a/">Chemical mechanism solvers in air quality models</a>.
   <em>Atmosphere</em>.
   
   <p>
@@ -1998,15 +1749,12 @@
 
 
 
+
   
 
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/zhang-2011-a/zhang-2011-a.bib">
-  Cite
-</button>
 
 
 
@@ -2042,45 +1790,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2009">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/yun-xu/">Yun Xu</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/yuzhong-zhao/">Yuzhong Zhao</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/yun-xu/">Yun Xu</a></span>, <span><a href="/~hongzh/authors/yuzhong-zhao/">Yuzhong Zhao</a></span>
 
   </span>
   (2009).
-  <a href="/~hongzh/publication/zhang-2009/" itemprop="name">Discovery of motif pairs from protein-protein interaction networks</a>.
+  <a href="/~hongzh/publication/zhang-2009/">Discovery of motif pairs from protein-protein interaction networks</a>.
   <em>Proceedings - 2009 International Joint Conference on Bioinformatics, Systems Biology and Intelligent Computing, IJCBS 2009</em>.
   
   <p>
@@ -2091,15 +1817,12 @@
 
 
 
+
   
 
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/zhang-2009/zhang-2009.bib">
-  Cite
-</button>
 
 
 
@@ -2135,59 +1858,23 @@
 
         <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2008">
           
-            <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+            <div class="pub-list-item" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
   
 
-  <span itemprop="author" class="article-metadata li-cite-author">
+  <span class="article-metadata li-cite-author">
     
 
 
 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/yuzhong-zhao/">Yuzhong Zhao</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/yun-xu/">Yun Xu</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/zhihao-wang/">Zhihao Wang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/~hongzh/authors/guoliang-chen/">Guoliang Chen</a></span></span>
   
-
-
+  <span><a href="/~hongzh/authors/yuzhong-zhao/">Yuzhong Zhao</a></span>, <span><a href="/~hongzh/authors/yun-xu/">Yun Xu</a></span>, <span><a href="/~hongzh/authors/zhihao-wang/">Zhihao Wang</a></span>, <span><a href="/~hongzh/authors/hong-zhang/">Hong Zhang</a></span>, <span><a href="/~hongzh/authors/guoliang-chen/">Guoliang Chen</a></span>
 
   </span>
   (2008).
-  <a href="/~hongzh/publication/zhao-2008/" itemprop="name">A better block partition and ligation strategy for individual haplotyping.</a>.
+  <a href="/~hongzh/publication/zhao-2008/">A better block partition and ligation strategy for individual haplotyping.</a>.
   <em>Bioinformatics (Oxford, England)</em>.
   
   <p>
@@ -2198,15 +1885,12 @@
 
 
 
+
   
 
 
 
 
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/~hongzh/publication/zhao-2008/zhao-2008.bib">
-  Cite
-</button>
 
 
 
@@ -2240,58 +1924,8 @@
     </div>
   </div>
 </div>
-<div class="container">
-  <footer class="site-footer">
-  
 
-  <p class="powered-by">
-    &copy; 2019 &middot; 
-
-    Powered by the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
-    
-    <span class="float-right" aria-hidden="true">
-      <a href="#" id="back_to_top">
-        <span class="button_icon">
-          <i class="fas fa-chevron-up fa-2x"></i>
-        </span>
-      </a>
-    </span>
-    
-  </p>
-</footer>
-
-</div>
-
-
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-    
+      
 
     
     
@@ -2299,15 +1933,18 @@
     
     
     
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
         
       
 
@@ -2317,25 +1954,23 @@
 
     
     
-
-    
-    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
     
 
     
     
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const code_highlighting = true;</script>
     
 
+    
+    
+    
+    
     
     
     <script>
-      const search_index_filename = "/~hongzh/index.json";
-      const i18n = {
-        'placeholder': "Search...",
-        'results': "results found",
-        'no_results': "No results found"
-      };
+      const search_config = {"indexURI":"/~hongzh/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
       const content_type = {
         'post': "Posts",
         'project': "Projects",
@@ -2374,6 +2009,11 @@
 
     
     
+
+    
+    
+    
+    
     
     
     
@@ -2384,8 +2024,68 @@
     
     
     
-    <script src="/~hongzh/js/academic.min.d7381f2d79e6271d4da28f474f49096c.js"></script>
+    <script src="/~hongzh/js/academic.min.3227ab49eed49815d1b4ba40154f74e7.js"></script>
 
-  </body>
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
-
