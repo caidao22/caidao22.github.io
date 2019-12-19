@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.mcs.anl.gov/~hongzh/publication_types/1/</loc>
+    <loc>https://www.mcs.anl.gov/~hongzh/publication_types/2/</loc>
     <lastmod>2019-09-01T00:00:00-05:00</lastmod>
   </url>
   
@@ -123,6 +123,11 @@
   </url>
   
   <url>
+    <loc>https://www.mcs.anl.gov/~hongzh/publication_types/1/</loc>
+    <lastmod>2018-01-01T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.mcs.anl.gov/~hongzh/tags/adjoint/</loc>
     <lastmod>2018-01-01T00:00:00-06:00</lastmod>
   </url>
@@ -180,11 +185,6 @@
   <url>
     <loc>https://www.mcs.anl.gov/~hongzh/tags/xeon-phi/</loc>
     <lastmod>2018-01-01T00:00:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.mcs.anl.gov/~hongzh/publication_types/2/</loc>
-    <lastmod>2017-01-01T00:00:00-06:00</lastmod>
   </url>
   
   <url>
