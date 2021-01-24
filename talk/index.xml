@@ -5,12 +5,28 @@
     <link>https://www.mcs.anl.gov/~hongzh/talk/</link>
       <atom:link href="https://www.mcs.anl.gov/~hongzh/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.mcs.anl.gov/~hongzh/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://www.mcs.anl.gov/~hongzh/talk/</link>
     </image>
+    
+    <item>
+      <title>Numerical Stability of Interface Conditions for Ocean-Atmosphere Coupling</title>
+      <link>https://www.mcs.anl.gov/~hongzh/talk/siam-mpe-2020/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.mcs.anl.gov/~hongzh/talk/siam-mpe-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization of SpMV on GPU for Iterative Solvers in PETSc</title>
+      <link>https://www.mcs.anl.gov/~hongzh/talk/siam-pp-2020/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.mcs.anl.gov/~hongzh/talk/siam-pp-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SIMD optimization of PETSc sparse matrix-vector multiplication over many-core CPUs</title>
