@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>construction of highly stable methods | Hong Zhang</title>
+    <link>https://www.mcs.anl.gov/~hongzh/tag/construction-of-highly-stable-methods/</link>
+      <atom:link href="https://www.mcs.anl.gov/~hongzh/tag/construction-of-highly-stable-methods/index.xml" rel="self" type="application/rss+xml" />
+    <description>construction of highly stable methods</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2014 00:00:00 -0600</lastBuildDate>
+    <image>
+      <url>https://www.mcs.anl.gov/~hongzh/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>construction of highly stable methods</title>
+      <link>https://www.mcs.anl.gov/~hongzh/tag/construction-of-highly-stable-methods/</link>
+    </image>
+    
+    <item>
+      <title>Extrapolated Implicit-Explicit Runge-Kutta Methods</title>
+      <link>https://www.mcs.anl.gov/~hongzh/publication/cardone-2014-a/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 -0600</pubDate>
+      <guid>https://www.mcs.anl.gov/~hongzh/publication/cardone-2014-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

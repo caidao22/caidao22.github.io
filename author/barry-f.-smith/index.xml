@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Barry F. Smith | Hong Zhang</title>
+    <link>https://www.mcs.anl.gov/~hongzh/author/barry-f.-smith/</link>
+      <atom:link href="https://www.mcs.anl.gov/~hongzh/author/barry-f.-smith/index.xml" rel="self" type="application/rss+xml" />
+    <description>Barry F. Smith</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 23 Jan 2021 00:00:00 -0600</lastBuildDate>
+    <image>
+      <url>https://www.mcs.anl.gov/~hongzh/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Barry F. Smith</title>
+      <link>https://www.mcs.anl.gov/~hongzh/author/barry-f.-smith/</link>
+    </image>
+    
+    <item>
+      <title>Toward Performance-Portable PETSc for GPU-based Exascale Systems</title>
+      <link>https://www.mcs.anl.gov/~hongzh/publication/mills-2021/</link>
+      <pubDate>Sat, 23 Jan 2021 00:00:00 -0600</pubDate>
+      <guid>https://www.mcs.anl.gov/~hongzh/publication/mills-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PETSc TSAdjoint: a discrete adjoint ODE solver for first-order and second-order sensitivity analysis</title>
+      <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2019-b/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 -0600</pubDate>
+      <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2019-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vectorized Parallel Sparse Matrix-Vector Multiplication in PETSc Using AVX-512</title>
+      <link>https://www.mcs.anl.gov/~hongzh/publication/zhang-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0600</pubDate>
+      <guid>https://www.mcs.anl.gov/~hongzh/publication/zhang-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

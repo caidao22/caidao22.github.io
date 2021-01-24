@@ -209,17 +209,31 @@ title = {{FATODE: a library for forward, adjoint, and tangent linear integration
 volume = {36},
 year = {2014}
 }
-@techreport{Zhang2019a,
+@article{zhang2020stability,
+abstract = {In this paper we analyze the stability of different coupling strategies for multidomain PDEs that arise in general circulation models used in climate simulations. We focus on fully coupled ocean–atmosphere models that are needed to represent and understand the complicated interactions of these two systems, becoming increasingly important in climate change assessment in recent years. Numerical stability issues typically arise because of different time-stepping strategies applied to the coupled PDE system. In particular, the contributing factors include using large time steps, lack of accurate interface flux, and single-iteration coupling. We investigate the stability of the coupled ocean–atmosphere models for various interface conditions such as the Dirichlet–Neumann condition and the bulk interface condition, which is unique to climate modeling. By analyzing a simplified model, we demonstrate how the parameterization of the bulk condition and other numerical and physical parameters affect the coupling stability and establish stability conditions for different coupling strategies.},
 author = {Zhang, Hong and Liu, Zhengyu and Constantinescu, Emil and Jacob, Robert},
-journal = {Submitted},
-title = {{Stability Analysis of Interface Conditions for Ocean-Atmosphere Coupling}},
-url = {https://arxiv.org/abs/1806.01437},
-year = {2019}
+doi = {10.1007/s10915-020-01293-y},
+issn = {15737691},
+journal = {Journal of Scientific Computing},
+keywords = {Coupled system,Ocean–atmosphere,Partitioned algorithm,Stability analysis},
+number = {3},
+pages = {1--25},
+publisher = {Springer},
+title = {{Stability Analysis of Interface Conditions for Ocean–Atmosphere Coupling}},
+volume = {84},
+year = {2020}
 }
-
 @techreport{Zhang2019b,
+abstract = {We present a new software system PETSc TSAdjoint for first-order and second-order adjoint sensitivity analysis of time-dependent nonlinear differential equations. The derivative calculation in PETSc TSAdjoint is essentially a high-level algorithmic differentiation process. The adjoint models are derived by differentiating the timestepping algorithms and implemented based on the parallel infrastructure in PETSc. Full differentiation of the library code including MPI routines thus is avoided, and users do not need to derive their own adjoint models for their specific applications. PETSc TSAdjoint can compute the first-order derivative, that is, the gradient of a scalar functional, and the Hessian-vector product that carries second-order derivative information, while requiring minimal input (a few callbacks) from the users. Optimal checkpointing schemes are employed by the adjoint model in a manner that is transparent to users. Usability, efficiency, and scalability are demonstrated through examples from a variety of applications.},
 author = {Zhang, Hong and Constantinescu, Emil and Smith, Barry},
 journal = {Submitted},
 title = {{PETSc TSAdjoint: a discrete adjoint ODE solver for first-order and second-order sensitivity analysis}},
-year = {2019}
+url = {https://arxiv.org/abs/1912.07696}
+year = {2020}
+}
+@techreport{Zhang2020,
+author = {Mills, Richard T. and Adam, Mark F. and Bala, Satish and Brown, Jed and Dener, Alp and  Knepley, Matthew and Kruger, Scott and Morgan, Hannah and Munson, Todd and Rupp, Karl and Smith, Barry F. and Zampini, Stefano and Zhang, Hong and Zhang, Junchao},
+journal = {Submitted},
+title = {{Toward Performance-Portable PETSc for GPU-based Exascale Systems}},
+year = {2020}
 }
