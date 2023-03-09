@@ -34,15 +34,15 @@
     <lastmod>2021-08-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://caidao22.github.io/talk/</loc>
+    <loc>https://caidao22.github.io/event/</loc>
     <lastmod>2021-06-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://caidao22.github.io/talk/iccs-2021/</loc>
+    <loc>https://caidao22.github.io/event/revolve-based-adjoint-checkpointing-for-multistage-time-integration/</loc>
     <lastmod>2021-06-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://caidao22.github.io/talk/siam-cse-2021/</loc>
+    <loc>https://caidao22.github.io/event/recent-developments-of-the-petsc-time-stepping-library/</loc>
     <lastmod>2021-03-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -54,11 +54,23 @@
     <lastmod>2020-08-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://caidao22.github.io/talk/siam-mpe-2020/</loc>
+    <loc>https://caidao22.github.io/event/numerical-stability-of-interface-conditions-for-ocean-atmosphere-coupling/</loc>
     <lastmod>2020-08-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://caidao22.github.io/talk/siam-pp-2020/</loc>
+    <loc>https://caidao22.github.io/tag/stability/</loc>
+    <lastmod>2020-08-12T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://caidao22.github.io/tag/gpu/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://caidao22.github.io/event/optimization-of-spmv-on-gpu-for-iterative-solvers-in-petsc/</loc>
+    <lastmod>2020-02-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://caidao22.github.io/tag/spmv/</loc>
     <lastmod>2020-02-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -74,11 +86,11 @@
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://caidao22.github.io/talk/petsc-meeting-2019/</loc>
+    <loc>https://caidao22.github.io/event/simd-optimization-of-petsc-sparse-matrix-vector-multiplication-over-many-core-cpus/</loc>
     <lastmod>2019-06-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://caidao22.github.io/talk/siam-cse-2019/</loc>
+    <loc>https://caidao22.github.io/event/stable-time-integration-for-coupled-ocean-atmosphere-models/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>

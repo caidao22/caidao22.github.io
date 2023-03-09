@@ -14,9 +14,9 @@
     
     <item>
       <title>SIMD optimization of PETSc sparse matrix-vector multiplication over many-core CPUs</title>
-      <link>https://caidao22.github.io/talk/petsc-meeting-2019/</link>
+      <link>https://caidao22.github.io/event/simd-optimization-of-petsc-sparse-matrix-vector-multiplication-over-many-core-cpus/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://caidao22.github.io/talk/petsc-meeting-2019/</guid>
+      <guid>https://caidao22.github.io/event/simd-optimization-of-petsc-sparse-matrix-vector-multiplication-over-many-core-cpus/</guid>
       <description></description>
     </item>
     

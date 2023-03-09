@@ -85,17 +85,25 @@ For example, the following can be run directly or added into your .bash_profile 
     
     <item>
       <title>Recent Developments of the PETSc Time-Stepping Library</title>
-      <link>https://caidao22.github.io/talk/siam-cse-2021/</link>
+      <link>https://caidao22.github.io/event/recent-developments-of-the-petsc-time-stepping-library/</link>
       <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>https://caidao22.github.io/talk/siam-cse-2021/</guid>
+      <guid>https://caidao22.github.io/event/recent-developments-of-the-petsc-time-stepping-library/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization of SpMV on GPU for Iterative Solvers in PETSc</title>
+      <link>https://caidao22.github.io/event/optimization-of-spmv-on-gpu-for-iterative-solvers-in-petsc/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://caidao22.github.io/event/optimization-of-spmv-on-gpu-for-iterative-solvers-in-petsc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SIMD optimization of PETSc sparse matrix-vector multiplication over many-core CPUs</title>
-      <link>https://caidao22.github.io/talk/petsc-meeting-2019/</link>
+      <link>https://caidao22.github.io/event/simd-optimization-of-petsc-sparse-matrix-vector-multiplication-over-many-core-cpus/</link>
       <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://caidao22.github.io/talk/petsc-meeting-2019/</guid>
+      <guid>https://caidao22.github.io/event/simd-optimization-of-petsc-sparse-matrix-vector-multiplication-over-many-core-cpus/</guid>
       <description></description>
     </item>
     
