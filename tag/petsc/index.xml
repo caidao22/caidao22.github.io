@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PETSc | Hong Zhang</title>
+    <link>https://caidao22.github.io/tag/petsc/</link>
+      <atom:link href="https://caidao22.github.io/tag/petsc/index.xml" rel="self" type="application/rss+xml" />
+    <description>PETSc</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 27 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://caidao22.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>PETSc</title>
+      <link>https://caidao22.github.io/tag/petsc/</link>
+    </image>
+    
+    <item>
+      <title>Installing PETSc and Torchdiffeq on Theta</title>
+      <link>https://caidao22.github.io/post/getting-started/</link>
+      <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://caidao22.github.io/post/getting-started/</guid>
+      <description>&lt;h2 id=&#34;-table-of-contents&#34;&gt;📚 Table of Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#prerequisite&#34;&gt;👉Prerequistie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#install-petsc&#34;&gt;🦄Install PETSc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#install-torchdiffeq&#34;&gt;✨Install torchdiffeq&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;-prerequisite-on-thetagpu-a-nameprerequisitea&#34;&gt;👉 Prerequisite on ThetaGPU &lt;a name=&#34;prerequisite&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Request an interactive node&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Once you login to Theta, do the following&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh thetagpusn1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;qsub -n 1 -t &amp;lt;NODE_TIME_IN_MINUTES&amp;gt; -A &amp;lt;ALLOCATION_NAME&amp;gt; -I
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Enable python environment:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;source /lus/theta-fs0/software/thetagpu/conda/2021-06-28/mconda3/setup.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Python is not avaible on thetagpusn nodes and GPU nodes. This will setup a conda environment with a recent &amp;ldquo;from scratch&amp;rdquo; build of the PyTorch repository on the master branch. The location is subject to change.&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Set up internet connection:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;export http_proxy=http://proxy.tmi.alcf.anl.gov:3128
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;export https_proxy=http://proxy.tmi.alcf.anl.gov:3128
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Alternatively, you can add &lt;code&gt;--attrs=pubnet&lt;/code&gt; when requesting nodes with &lt;code&gt;qsub &lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now you can install python packages with &lt;code&gt;pip install&lt;/code&gt;, e.g.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install Cython matplotlib scipy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💬More info can be found &lt;a href=&#34;https://www.alcf.anl.gov/support-center/theta-gpu-nodes/running-pytorch-conda&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;Lunch jobs on Theta：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;aprun -n 64 -N 64 ./&amp;lt;your_program&amp;gt; &amp;lt;program_arguments&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You need to use &lt;code&gt;aprun&lt;/code&gt; to execute your program on Theta.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-n&lt;/code&gt; specifies the total number of MPI ranks&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-N&lt;/code&gt; specifies the ranks per node&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;-q&lt;/code&gt; if you want to silence the output such as &lt;code&gt;Application 22305720 resources: utime ~10s, stime ~3s, Rss ~18776, inblocks ~0, outblocks ~8&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-installation-of-petsc-a-nameinstall-petsca&#34;&gt;🦄 Installation of PETSc &lt;a name=&#34;install-petsc&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GPU build&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://gitlab.com/petsc/petsc.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd petsc
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./configure --download-revolve --with-shared-libraries COPTFLAGS=-O3 CXXOPTFLAGS=-O3 FOPTFLAGS=-O3 PETSC_ARCH=arch-theta-gpu-opt --with-cuda-gencodearch=80 --with-cuda=1 --with-cudac=nvcc --with-petsc4py --download-fblaslapack
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Follow the printed instructions at the end of configure to do a &lt;code&gt;make&lt;/code&gt;. If you enabled &lt;code&gt;petsc4py&lt;/code&gt; (&lt;code&gt;--with-petsc4py&lt;/code&gt;), add &lt;code&gt;&amp;lt;path_to_petsc&amp;gt;/petsc/arch-theta-cuda-opt/lib&lt;/code&gt; to PYTHONPATH.
+For example, the following can be run directly or added into your .bash_profile script.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;export PYTHONPATH=&amp;lt;path_to_petsc&amp;gt;/petsc/arch-theta-cuda-opt/lib:PYTHONPATH
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;KNL build&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://gitlab.com/petsc/petsc.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd petsc
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./configure --LIBS=-lstdc++ --known-64-bit-blas-indices=0 --known-bits-per-byte=8 --known-has-attribute-aligned=1 --known-level1-dcache-assoc=8 --known-level1-dcache-linesize=64 --known-level1-dcache-size=32768 --known-memcmp-ok=1 --known-mklspblas-supports-zero-based=0 --known-mpi-c-double-complex=1 --known-mpi-int64_t=1 --known-mpi-long-double=1 --known-mpi-shared-libraries=1 --known-sdot-returns-double=0 --known-sizeof-MPI_Comm=4 --known-sizeof-MPI_Fint=4 --known-sizeof-char=1 --known-sizeof-double=8 --known-sizeof-float=4 --known-sizeof-int=4 --known-sizeof-long-long=8 --known-sizeof-long=8 --known-sizeof-short=2 --known-sizeof-size_t=8 --known-sizeof-void-p=8 --known-snrm2-returns-double=0 --with-cc=cc --with-clib-autodetect=0 --with-cxx=CC --with-cxxlib-autodetect=0 --with-batch --with-debugging=0 --with-fc=0 --with-hdf5=0 --with-make-np --with-memalign=64 --with-shared-libraries COPTFLAGS=-O3 CXXOPTFLAGS=-O3 FOPTFLAGS=-O3 PETSC_ARCH=arch-theta-knl-opt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💡&lt;strong&gt;Tips&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Do not change any option before &lt;code&gt;--with-batch&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;For debug version, use &lt;code&gt;--with-debugging&lt;/code&gt; and remove the OPTFLAGS&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PETSC_ARCH&lt;/code&gt; is just a folder name of your choice, used to discriminate different builds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-installation-of-torchdiffeq-a-nameinstall-torchdiffeqa&#34;&gt;✨ Installation of torchdiffeq &lt;a name=&#34;install-torchdiffeq&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/rtqichen/torchdiffeq.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cd torchdiffeq
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install --user -e .
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>SIMD optimization of PETSc sparse matrix-vector multiplication over many-core CPUs</title>
+      <link>https://caidao22.github.io/talk/petsc-meeting-2019/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://caidao22.github.io/talk/petsc-meeting-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
